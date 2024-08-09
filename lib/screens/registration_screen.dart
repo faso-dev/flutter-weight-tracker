@@ -19,7 +19,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _ageController = TextEditingController();
-  String _selectedSex = 'Male';
+  String _selectedSex = 'Masculin';
   final _authService = AuthService();
 
   bool _isLoading = false;
@@ -131,7 +131,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   labelText: Strings.sex,
                   prefixIcon: const Icon(Icons.wc),
                 ),
-                items: ['Male', 'Female', 'Other'].map((String value) {
+                items: ['Masculin', 'Feminin'].map((String value) {
                   return DropdownMenuItem<String>(
                     value: value,
                     child: Text(value),
