@@ -71,11 +71,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.asset(
-                    'assets/images/weight.jpg', // Chemin vers votre image
+                    'assets/images/weight.jpg',
                     height: 200,
-                    width: 200,// Hauteur de l'image (ajustez selon vos besoins)
+                    width: 200,
                   ),
-                  //const FlutterLogo(size: 100),
                   const SizedBox(height: 48),
                   Text(
                     Strings.appName,

@@ -58,7 +58,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(content: Text(Strings.registrationSuccessful)),
           );
-          Navigator.of(context).pop(); // Return to login screen
+          Navigator.of(context).pop();
         } else {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(content: Text(Strings.registrationFailed)),
